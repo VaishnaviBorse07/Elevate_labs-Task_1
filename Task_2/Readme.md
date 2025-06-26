@@ -1,68 +1,35 @@
-# 🎓 EDA: Student Performance Dataset
+🎓 Student Performance EDA
+This project performs Exploratory Data Analysis (EDA) on a dataset of student scores to understand how factors like gender, lunch type, and test preparation impact performance in Math, Reading, and Writing.
 
-## 📌 Objective
-This project performs **Exploratory Data Analysis (EDA)** on the *Student Performance Dataset*, exploring how factors like gender, lunch, and test preparation affect student scores in Math, Reading, and Writing.
+📁 Dataset
+File: student_performance.csv
 
-## 📁 Dataset
-- **File**: `student_performance.csv`
+Key Features: gender, parental education, lunch, test prep, math/reading/writing scores
 
-### Features:
-- `gender`
-- `race/ethnicity`
-- `parental level of education`
-- `lunch`
-- `test preparation course`
-- `math score`
-- `reading score`
-- `writing score`
+🔍 Analysis Highlights
+Checked missing values and summary statistics
 
----
+Visualized score distributions using histograms & boxplots
 
-## 🧰 Tools Used
-- Python
-- Spyder IDE
-- Pandas
-- Matplotlib
-- Seaborn
+Analyzed gender-based performance
 
----
+Plotted correlation heatmap and pairplots
 
-## 🧪 EDA Performed
-- Displayed first few rows, info, and summary statistics
-- Checked for missing values
-- Plotted:
-  - Histograms of all 3 scores
-  - Boxplots of scores to detect outliers
-  - Gender-wise Math score distribution
-  - Correlation heatmap between scores
-  - Pairplot for score relationships
+📊 Key Findings
+Strong correlation between reading and writing scores
 
----
+Males perform slightly better in math
 
-## 📈 Key Insights
-- **High Correlation** between Reading and Writing scores.
-- **Males** slightly outperform females in **Math**, while **females** tend to score better in Reading and Writing.
-- **Students who completed** the test preparation course scored **higher on average** in all subjects.
+Test-prep course improves scores in all subjects
 
----
+🛠️ Tools Used
+Python (Spyder IDE)
 
-## 🗂️ Folder Structure
+Pandas, Matplotlib, Seaborn
 
-EDA_Student_Performance/
-├── student_eda.py # Python file with full EDA code (for Spyder)
-├── student_performance.csv # Dataset file
-└── README.md # This file
+🚀 How to Run
+Open student_eda.py in Spyder
 
----
+Keep student_performance.csv in the same folder
 
-## 🚀 How to Run
-1. Open `student_eda.py` in Spyder.
-2. Ensure `student_performance.csv` is in the same folder.
-3. Run the script. Output will appear in the Console, and plots in the Plots tab.
-
----
-
-## ✅ Submission
-Push this project to a GitHub repository and submit the repository link in the required submission form.
-
----
+Run the script to view outputs and plots
